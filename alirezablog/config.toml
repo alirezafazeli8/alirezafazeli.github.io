@@ -1,0 +1,61 @@
+baseURL = 'https://alirezafazeli8.github.io'
+languageCode = 'en'
+# languageCode = 'zh-CN'
+theme = "JuiceBar"
+title = "Alireza Fazeli Blog"
+
+[params]
+author = "Alireza Fazeli"
+description = "Alireza Fazeli Blog"
+authorImage = "/images/avatar.jpg"
+paginate = 5
+
+Title = "Alireza Fazeli"
+content = "I'm Alireza Fazeli, Welcome To My Website My Friend"
+imageUrl = "./images/avatar.jpg"
+# To add a new social icon (More social icons can be found in JuiceBar\layouts\partials\svg.html.)
+[[params.social]]
+name = "Github"
+url = "https://github.com/alirezafazeli8"
+[[params.social]]
+name = "telegram"
+url = "https://t.me/fazeli_tech"
+[[params.social]]
+name = "twitter"
+url = "https://twitter.com/fazeli_tech"
+[[params.social]]
+name = "email"
+url = "mailto:alirezafazelitech@outlook.com"
+
+[taxonomies]
+category = "categories"
+
+# To add a new navigation link
+[[menu.main]]
+name = "About"
+url = "/about"
+[[menu.main]]
+name = "Blog"
+url = "/post"
+[[menu.main]]
+name = "Categories"
+url = "/categories"
+
+[params.giscus]
+repo = "alirezafazeli8/blog"
+repoID = "R_kgDOHHQOuw"
+category = "Announcements"
+categoryID = "DIC_kwDOHHQOu84CWCQ3"
+mapping = "og:title"
+reactionsEnabled = "1"
+emitMetadata = "0"
+inputPosition = "bottom"
+lang = "en"
+loading = "lazy"
+
+# Used for outputting the documentation (required).
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+
+

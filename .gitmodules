@@ -1,0 +1,18 @@
+[submodule "alirezafazeli/themes/JuiceBar"]
+	path = alirezafazeli/themes/JuiceBar
+	url = https://github.com/hotjuicew/hugo-JuiceBar.git
+[submodule "themes/JuiceBar"]
+	path = themes/JuiceBar
+	url = https://github.com/hotjuicew/hugo-JuiceBar.git
+[submodule "alireza_blog/themes/ananke"]
+	path = alireza_blog/themes/ananke
+	url = https://github.com/theNewDynamic/gohugo-theme-ananke.git
+[submodule "alireza_blog/themes/JuiceBar"]
+	path = alireza_blog/themes/JuiceBar
+	url = https://github.com/hotjuicew/hugo-JuiceBar.git
+[submodule "alireza_blog/themes/KeepIt"]
+	path = alireza_blog/themes/KeepIt
+	url = https://github.com/Fastbyte01/KeepIt.git
+[submodule "alirezablog/themes/JuiceBar"]
+	path = alirezablog/themes/JuiceBar
+	url = https://github.com/hotjuicew/hugo-JuiceBar.git
